@@ -1,11 +1,19 @@
 print ("hola mundo")
-a = int(input("Ingrese inicio: "))
+'''a = int(input("Ingrese inicio: "))
 
-b = int(input("Ingrese fin: "))
+b = int(input("Ingrese fin: "))'''
 
-c = int(input("Ingrese valor para la table de multiplicar"))
-
-for i in range(a,b):
+c = int(input("Ingrese valor para la table de multiplicar: "))
+cont=0
+d=0
+for i in range(1,11):
     mult = i*c
-    print(i," * ",c," = ",mult)
-    
+    d+=mult
+    if (i%2==0):
+        print(i," * ",c," = ",mult)
+        cont+=mult
+        
+print("la suma de las respuestas pares es: ",cont)
+print("Suma total: ",d)
+
+
