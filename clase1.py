@@ -8,3 +8,4 @@ c = int(input("Ingrese valor para la table de multiplicar"))
 for i in range(a,b):
     mult = i*c
     print(i," * ",c," = ",mult)
+    
