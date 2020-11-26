@@ -22,7 +22,7 @@ print("Suma total: ",d)
 format -> sirve para una concatenacion 
 insert -> nos permite insertar un valor en cualquier parte deun arreglo  
 len -> permite ver la cantidad de datos de un vector             
-                '''
+                
 
 n = int(input("Ingrese dimension del vector: "))
 
@@ -40,4 +40,18 @@ vect.insert(2,10)
 print("valores finales son: ")
 for i in range(0, len(vect)):
     print("[ ",i," ]",vect[i])
+    
+    POOOO
+    '''
+
+class persona:
+    pass
+estudiante = persona()
+estudiante.nombre = input("Ingrese nombre: ")
+#estudiante.edad = int(input("Ingrese edad: "))
+
+
+print("Datos del estudiante: ", estudiante.nombre)
+
+
 
