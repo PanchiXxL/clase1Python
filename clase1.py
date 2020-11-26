@@ -45,13 +45,18 @@ for i in range(0, len(vect)):
     '''
 
 class persona:
+    nombre = input("Ingrese nombre: ")
+    sueldo = float(input("Ingrese sueldo: "))
     pass
-estudiante = persona()
-estudiante.nombre = input("Ingrese nombre: ")
-#estudiante.edad = int(input("Ingrese edad: "))
+empleado = persona()
 
 
-print("Datos del estudiante: ", estudiante.nombre)
+valorfin = ((empleado.sueldo)*0.12)
+valorFinal = empleado.sueldo + valorfin
+print("Nombre empleado: ", empleado.nombre)
+print("sueldo principal: ", empleado.sueldo)
+print("valor de incremento: ", valorfin)
+print("Sueldo final: ", valorFinal)
 
 
 
